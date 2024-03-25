@@ -8,7 +8,7 @@
 import UIKit
 import Combine
 
-class SearchViewController: UIViewController {
+final class SearchViewController: UIViewController {
     struct UniqueState: Hashable {
         let uuid: UUID
         let item: String

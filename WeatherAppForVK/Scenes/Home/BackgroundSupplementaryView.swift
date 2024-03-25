@@ -7,7 +7,7 @@
 
 import UIKit
 
-class BackgroundSupplementaryView: UICollectionReusableView {
+final class BackgroundSupplementaryView: UICollectionReusableView {
     override init(frame: CGRect) {
         super.init(frame: frame)
         setupViews()

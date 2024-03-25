@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ListView: UIView {
+final class ListView: UIView {
     
     lazy var collectionView = UICollectionView(frame: CGRect.zero, collectionViewLayout: createLayout())
     

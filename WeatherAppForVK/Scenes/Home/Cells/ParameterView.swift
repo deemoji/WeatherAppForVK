@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ParameterView: UIView {
+final class ParameterView: UIView {
     
     private let stackView: UIStackView = {
         let sv = UIStackView()

@@ -7,7 +7,7 @@
 
 import UIKit
 
-class WeatherView: UIView {
+final class WeatherView: UIView {
     
     enum Section: Int {
         case mainInfo

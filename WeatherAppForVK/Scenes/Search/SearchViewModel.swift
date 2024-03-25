@@ -8,7 +8,7 @@
 import Foundation
 import Combine
 
-class SearchViewModel {
+final class SearchViewModel {
     enum Section { case cities }
     
     @Published var results: [String] = []
